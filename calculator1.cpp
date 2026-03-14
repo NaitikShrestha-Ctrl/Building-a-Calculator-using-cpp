@@ -8,19 +8,20 @@ int main()
     double num1, num2;
     char op;
 
-    cout << "Enter first number: ";
+    // here asking user input 
+    cout << "Enter first number: "; 
     cin >> num1;
 
     cout << "Enter  Operator: ";
-    cin >> num1;
+    cin >> op;
 
     cout << "Enter second number: ";
     cin >> num2;
 
-    switch (op)
+    switch (op) // using switch 
     {
         case '+':
-            cout << "The answer of given solution is: " << num1 + num2 ;
+            cout << "The answer of given solution is: " << num1 + num2 ; 
         break;
     
         case '-':
